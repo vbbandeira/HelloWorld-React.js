@@ -2,10 +2,10 @@ import { useState } from "react";
 import { Tweet } from "./components/Tweet";
 
 import "./App.css";
-import { Routes } from "react-router-dom";
+import { AppRoutes } from "./Routes";
 
 function App() {
-  return <Routes />;
+  return <AppRoutes />;
 }
 
 /*
