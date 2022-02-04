@@ -2,7 +2,13 @@ import { useState } from "react";
 import { Tweet } from "./components/Tweet";
 
 import "./App.css";
+import { Routes } from "react-router-dom";
 
+function App() {
+  return <Routes />;
+}
+
+/*
 function App() {
   const [tweets, setTweets] = useState<string[]>([
     "Tweet 1",
@@ -35,5 +41,5 @@ function App() {
     </div>
   );
 }
-
+*/
 export default App;
